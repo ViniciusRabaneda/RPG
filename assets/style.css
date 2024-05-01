@@ -1,0 +1,58 @@
+.fightArea{
+    display: flex; /* Faz com que os elementos fiquem lado a lado */
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/mk.jpg);
+    background-size: contain;
+
+}
+#character,#monster{
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.lifeBar{
+    height: 20px;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.lifeBar .bar{
+    height: inherit ; /* Vai tomar como referência a altura do lifebar */
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log{
+    border:1px dotted #999;
+    height:200px;
+    overflow-y: scroll;
+}
+
+.image img {
+    width: 40vh;
+    height:40vh;
+    padding-top:30;
+}
+
+.button{
+    padding-top: 20;
+}
+.attackButton{
+    width:200px;
+}
+
+.name{
+    padding-top: 3%;
+    padding-left: 5%;
+    color: rgb(255, 174, 0); 
+    font-size: 3vh
+}
+
+
